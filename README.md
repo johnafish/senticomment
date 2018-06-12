@@ -26,4 +26,5 @@ Run `python3 main.py --videoid={your video ID here}` to run the script and gener
 
 ## Examples
 `python3 main.py --videoid=Zj8h3ZSc-Aw`
+
 [Link to Interactive Histogram as of June 11, 2018](https://docs.google.com/a/college.harvard.edu/spreadsheets/d/e/2PACX-1vRXt_ciTLw3Ylp7_PqHQqOHS8rh-hiGAqA9i7BhbsrDvHuoyBWflibParlm6h9IpewF0CFQc6bTHHcx/pubchart?oid=1509344064&format=interactive)
