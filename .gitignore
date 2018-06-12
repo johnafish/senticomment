@@ -1,0 +1,3 @@
+*.swp
+client_secrets.json
+main.py-oauth2.json
