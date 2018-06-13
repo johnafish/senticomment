@@ -2,19 +2,7 @@
 Senticomment is a simple little hacked together script that applies basic sentiment analysis to downloaded YouTube comments. To set up:
 
 ## Installation of Libraries
-You'll need Python 3 installed with pip. Run:
-
-`pip install httplib2`
-
-`pip install nltk`
-
-`pip install csv`
-
-`pip install google-api-python-client`
-
-`pip install oauth2client`
-
-You'll also need to install `vader`, but I don't remember how. Running `python3 main.py` should prompt you with what you need to do.
+`pip install -r requirements.txt`
 
 ## Set Up Google Cloud
 1. Go to [Google Cloud Console](https://console.cloud.google.com) and create a new project. 
