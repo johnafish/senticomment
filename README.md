@@ -2,6 +2,9 @@
 Senticomment is a simple little hacked together script that applies basic sentiment analysis to downloaded YouTube comments. To set up:
 
 ## Installation of Libraries
+
+
+It's recommended that you use [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) so that existing packages aren't tempered with.
 You'll need Python 3 installed with pip. Run:
 
 `pip install httplib2`
@@ -14,7 +17,13 @@ You'll need Python 3 installed with pip. Run:
 
 `pip install oauth2client`
 
-You'll also need to install `vader`, but I don't remember how. Running `python3 main.py` should prompt you with what you need to do.
+You'll also need to install `vader`.
+
+Just go into the python console, import `nltk` module and use it to download the vader data.
+
+`import nltk`
+
+`nltk.download('vader_lexicon')`
 
 ## Set Up Google Cloud
 1. Go to [Google Cloud Console](https://console.cloud.google.com) and create a new project. 
